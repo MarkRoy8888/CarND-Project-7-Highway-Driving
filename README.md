@@ -1,6 +1,14 @@
 # CarND-Path-Planning-Project
 Self-Driving Car Engineer Nanodegree Program
-   
+
+
+### The result
+drive highway
+![](img/image1)
+
+switch lane
+![](img/image2)
+
 ### Simulator.
 You can download the Term3 Simulator which contains the Path Planning Project from the [releases tab (https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).  
 
@@ -24,15 +32,15 @@ The highway's waypoints loop around so the frenet s value, distance along the ro
 3. Compile: `cmake .. && make`
 4. Run it: `./path_planning`.
 
-## My code 
+## My code
 
 I follow the class Q&A tip to edit my code. First,I copy the code on class to start my car.
 and edit fuction step by step. I am not family witg C ++, so keeping the code templete.
-I made some edit as follows 
+I made some edit as follows
 
 1. Line 93 to 157
 
-using sensor fusion to detect and predict other car. 
+using sensor fusion to detect and predict other car.
 Is it safe for pass car?
 
 2. Line 158 to 175
@@ -50,7 +58,7 @@ to conjunction three points at a far distance. It can be edit by result for taki
 
 count different portion(x,y)
 
-## Function 
+## Function
 
 1. using getXY function to let the car follow the lane.
 
@@ -65,4 +73,3 @@ keep the car on the center of the lane.
 
 initialization parameter
 Basically follow my mentor on class.
-
